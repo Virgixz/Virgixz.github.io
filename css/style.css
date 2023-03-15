@@ -7,6 +7,7 @@
 :root{
         --primary-color: #edf2fc;
         --secondary-color: #212121; 
+        
      }
 .dark-theme{
          --primary-color: #000106;
@@ -27,13 +28,12 @@ body.dark {
 
     }
 #containerbody{
-    background-color: var(--secondary-color);
-    width: 80%;
-    margin-top: 1%;
-    border-radius: 20px;
-    margin-bottom: 1%;
+  background-color: var(--secondary-color);
+  width: 80%;
+  margin-top: 1%;
+  border-radius: 20px;
+  margin-bottom: 3%;
 }
-
 
 div.title-block {
         text-align: center;
@@ -52,11 +52,6 @@ div.title-block {
         text-decoration: underline;
     }
 
-
-  
-    
-
-
 h6 {
     text-align: left;
     margin-left: 2%;
@@ -65,4 +60,5 @@ h6 {
 #typeicon{
     width: 70px;
 }
+
 
